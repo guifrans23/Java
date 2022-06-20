@@ -34,6 +34,7 @@ public class Itens {
 			System.out.println("Dedicação séria. Hora do plantio");
 			System.out.println("_____________________________________");			
 		}
+		enxadaDiamante.minerar();
 	}
 
 }

@@ -1,0 +1,11 @@
+Fundamentos:
+- Laços de repetições
+Dicas eclipse:
+for<ctrl><espaço> (monta a estrutura for)
+<ctrl><shift><o> (importação automática)
+
+Atividade final de avaliação POO
+Carros:
+- Slide 68 (Polimorfismo)
+- Refinar o projeto (revisar, acrescentar número de chassi e documentar todos os métodos)
+- Organizar o repositório GitHub

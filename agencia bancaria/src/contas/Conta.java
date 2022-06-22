@@ -78,7 +78,7 @@ public class Conta {
 	 * @param valor
 	 */
 	protected void depositar (double valor) {
-		saldo -= valor;
+		saldo += valor;
 		System.out.println("Crédito R$ " + valor );
 	}
 	/**

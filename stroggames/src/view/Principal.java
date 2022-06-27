@@ -1,19 +1,23 @@
 package view;
 
 
+import java.awt.Color;
+import java.awt.Cursor;
 import java.awt.EventQueue;
-
-import javax.swing.JFrame;
-import javax.swing.JPanel;
-import javax.swing.border.EmptyBorder;
 import java.awt.Toolkit;
-import javax.swing.JLabel;
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
+import java.awt.event.WindowAdapter;
+import java.awt.event.WindowEvent;
+import java.text.DateFormat;
+import java.util.Date;
+
 import javax.swing.ImageIcon;
 import javax.swing.JButton;
-import java.awt.Cursor;
-import java.awt.event.ActionListener;
-import java.awt.event.ActionEvent;
-import java.awt.Color;
+import javax.swing.JFrame;
+import javax.swing.JLabel;
+import javax.swing.JPanel;
+import javax.swing.border.EmptyBorder;
 
 public class Principal extends JFrame {
 
@@ -22,6 +26,8 @@ public class Principal extends JFrame {
 	 */
 	private static final long serialVersionUID = 1L;
 	private JPanel contentPane;
+	private final JLabel lblNewLabel = new JLabel("");
+	private JLabel lbldata;
 
 	/**
 	 * Launch the application.
@@ -43,11 +49,20 @@ public class Principal extends JFrame {
 	 * Create the frame.
 	 */
 	public Principal() {
+		addWindowListener(new WindowAdapter() {
+			// evento do ativar o java
+			@Override
+			public void windowActivated(WindowEvent e) {
+				  Date data = new Date();
+				  DateFormat formatador = DateFormat.getDateInstance  (DateFormat.FULL);
+				  lbldata.setText(formatador.format(data));
+			}
+		});
 		setResizable(false);
 		setIconImage(Toolkit.getDefaultToolkit().getImage(Principal.class.getResource("/img/logo.png")));
 		setTitle("stronggames");
 		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-		setBounds(100, 100, 647, 448);
+		setBounds(100, 100, 647, 423);
 		contentPane = new JPanel();
 		contentPane.setToolTipText("Relatorio");
 		contentPane.setCursor(Cursor.getPredefinedCursor(Cursor.DEFAULT_CURSOR));
@@ -120,16 +135,25 @@ public class Principal extends JFrame {
 		btnNewButton_1.setBounds(326, 167, 128, 128);
 		contentPane.add(btnNewButton_1);
 		
-		JPanel panel = new JPanel();
-		panel.setBackground(Color.RED);
-		panel.setBounds(0, 364, 627, 50);
-		contentPane.add(panel);
-		
 		JButton btnNewButton_2 = new JButton("");
 		btnNewButton_2.setCursor(Cursor.getPredefinedCursor(Cursor.HAND_CURSOR));
 		btnNewButton_2.setIcon(new ImageIcon(Principal.class.getResource("/img/sobre (2).png")));
 		btnNewButton_2.setToolTipText("sobre");
 		btnNewButton_2.setBounds(477, 167, 128, 128);
 		contentPane.add(btnNewButton_2);
+		
+		JPanel panel = new JPanel();
+		panel.setBackground(Color.RED);
+		panel.setBounds(0, 325, 621, 59);
+		contentPane.add(panel);
+		panel.setLayout(null);
+		lblNewLabel.setBounds(10, 0, 64, 64);
+		panel.add(lblNewLabel);
+		lblNewLabel.setIcon(new ImageIcon(Principal.class.getResource("/img/lojalogo.png")));
+		lblNewLabel.setToolTipText("img");
+		
+		lbldata = new JLabel("New label");
+		lbldata.setBounds(182, 22, 46, 14);
+		panel.add(lbldata);
 	}
 }

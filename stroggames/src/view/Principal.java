@@ -18,6 +18,8 @@ import javax.swing.JFrame;
 import javax.swing.JLabel;
 import javax.swing.JPanel;
 import javax.swing.border.EmptyBorder;
+import java.awt.Dialog.ModalExclusionType;
+import java.awt.Font;
 
 public class Principal extends JFrame {
 
@@ -49,6 +51,7 @@ public class Principal extends JFrame {
 	 * Create the frame.
 	 */
 	public Principal() {
+		setModalExclusionType(ModalExclusionType.APPLICATION_EXCLUDE);
 		addWindowListener(new WindowAdapter() {
 			// evento do ativar o java
 			@Override
@@ -72,7 +75,14 @@ public class Principal extends JFrame {
 		
 		JButton btnNewButton_3 = new JButton("");
 		btnNewButton_3.addActionListener(new ActionListener() {
-			public void actionPerformed(ActionEvent e) {
+		public void actionPerformed(ActionEvent e) {
+			//evento clicar no botão
+			
+			// link para o jdialog
+			
+			Usuarios usuarios = new Usuarios();
+			usuarios.setVisible(true); 
+			
 			}
 		});
 		btnNewButton_3.setCursor(Cursor.getPredefinedCursor(Cursor.HAND_CURSOR));
@@ -87,6 +97,12 @@ public class Principal extends JFrame {
 		btnNewButton_4.setToolTipText("Pagamento");
 		btnNewButton_4.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
+				//evento clicar no botão
+				
+				// link para o jdialog
+				
+				Pagamento pagamento = new Pagamento();
+				pagamento.setVisible(true); 
 			}
 		});
 		btnNewButton_4.setBounds(10, 167, 128, 128);
@@ -97,6 +113,12 @@ public class Principal extends JFrame {
 		btnNewButton_5.setIcon(new ImageIcon(Principal.class.getResource("/img/Relatorio.png")));
 		btnNewButton_5.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
+				//evento clicar no botão
+				
+				// link para o jdialog
+				
+				Relatorio relatorio = new Relatorio();
+				relatorio.setVisible(true); 
 			}
 		});
 		btnNewButton_5.setToolTipText("Relatorio");
@@ -104,6 +126,16 @@ public class Principal extends JFrame {
 		contentPane.add(btnNewButton_5);
 		
 		JButton btnNewButton_6 = new JButton("");
+		btnNewButton_6.addActionListener(new ActionListener() {
+			public void actionPerformed(ActionEvent e) {
+				//evento clicar no botão
+				
+				// link para o jdialog
+				
+				Produtos produtos = new Produtos();
+				produtos.setVisible(true); 
+			}
+		});
 		btnNewButton_6.setCursor(Cursor.getPredefinedCursor(Cursor.HAND_CURSOR));
 		btnNewButton_6.setIcon(new ImageIcon(Principal.class.getResource("/img/produtos.png")));
 		btnNewButton_6.setToolTipText("Produtos");
@@ -111,6 +143,16 @@ public class Principal extends JFrame {
 		contentPane.add(btnNewButton_6);
 		
 		JButton btnNewButton_7 = new JButton("");
+		btnNewButton_7.addActionListener(new ActionListener() {
+			public void actionPerformed(ActionEvent e) {
+				//evento clicar no botão
+				
+				// link para o jdialog
+				
+				Fornecedores fornecedores = new Fornecedores();
+				fornecedores.setVisible(true); 
+			}
+		});
 		btnNewButton_7.setCursor(Cursor.getPredefinedCursor(Cursor.HAND_CURSOR));
 		btnNewButton_7.setIcon(new ImageIcon(Principal.class.getResource("/img/fornecedores.png")));
 		btnNewButton_7.setToolTipText("Fornecedores");
@@ -118,6 +160,16 @@ public class Principal extends JFrame {
 		contentPane.add(btnNewButton_7);
 		
 		JButton btnNewButton = new JButton("");
+		btnNewButton.addActionListener(new ActionListener() {
+			public void actionPerformed(ActionEvent e) {
+				//evento clicar no botão
+				
+				// link para o jdialog
+				
+				Clientes clientes  = new Clientes();
+				clientes.setVisible(true); 
+			}
+		});
 		btnNewButton.setCursor(Cursor.getPredefinedCursor(Cursor.HAND_CURSOR));
 		btnNewButton.setIcon(new ImageIcon(Principal.class.getResource("/img/clientes.png")));
 		btnNewButton.setToolTipText("Clientes");
@@ -129,6 +181,12 @@ public class Principal extends JFrame {
 		btnNewButton_1.setIcon(new ImageIcon(Principal.class.getResource("/img/configuracoes.png")));
 		btnNewButton_1.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
+				//evento clicar no botão
+				
+				// link para o jdialog
+				
+				Ferramentas ferramentas = new Ferramentas();
+				ferramentas.setVisible(true); 
 			}
 		});
 		btnNewButton_1.setToolTipText("ferramentas");
@@ -136,6 +194,13 @@ public class Principal extends JFrame {
 		contentPane.add(btnNewButton_1);
 		
 		JButton btnNewButton_2 = new JButton("");
+		btnNewButton_2.addActionListener(new ActionListener() {
+			public void actionPerformed(ActionEvent e) {
+				
+				Sobre sobre = new Sobre();
+				sobre.setVisible(true); 
+			}
+		});
 		btnNewButton_2.setCursor(Cursor.getPredefinedCursor(Cursor.HAND_CURSOR));
 		btnNewButton_2.setIcon(new ImageIcon(Principal.class.getResource("/img/sobre (2).png")));
 		btnNewButton_2.setToolTipText("sobre");
@@ -152,8 +217,15 @@ public class Principal extends JFrame {
 		lblNewLabel.setIcon(new ImageIcon(Principal.class.getResource("/img/lojalogo.png")));
 		lblNewLabel.setToolTipText("img");
 		
-		lbldata = new JLabel("New label");
-		lbldata.setBounds(182, 22, 46, 14);
+		lbldata = new JLabel("data e hora");
+		lbldata.setFont(new Font("Tahoma", Font.PLAIN, 12));
+		lbldata.setForeground(Color.WHITE);
+		lbldata.setBounds(342, 0, 279, 64);
 		panel.add(lbldata);
+		
+		JLabel lblNewLabel_1 = new JLabel("Strong Games");
+		lblNewLabel_1.setForeground(Color.WHITE);
+		lblNewLabel_1.setBounds(84, 22, 179, 14);
+		panel.add(lblNewLabel_1);
 	}
 }

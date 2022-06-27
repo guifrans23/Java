@@ -1,25 +1,43 @@
-POO -> Abstração (criação do objeto)
+=============------Ordem dos Botões---===============
+usuarios
+fornecedor
+produtos
+clientes 
+pagamento
+relatorio
+ferramentas
+sobre
 
-Classe (biologia) -> Ex: mamíferos
+Resoluções comuns:
 
-Objeto (português) -> substantivo
-  |__  características -> adjetivo
-  |__  Ações -> verbo
+640 x 480
+800 x 600
+1025 x 768
 
-*** O principal objetivo da POO é a reutilização do código
+Inserir um rodapé com data automática no Java
+public void windowActivated(WindowEvent e) {
+  Date data = new Date();
+  DateFormat formatador = DateFormat.getDateInstance  (DateFormat.FULL);
+  lblData.setText(formatador.format(data));
+}
 
-new (criação de um novo objeto) "Instanciar um objeto"
-. (ponto) -> acessa os atributos e métodos da classe modelo
+Atividades:
+1) Criar a tela principal e as telas secundárias
+2) Definir 8 botões com ícones para a tela principal
+   - usuários
+   - fornecedores
+   - produtos
+   - clientes
+   - PDV
+   - relatórios
+   - ferramentas
+   - sobre
+3) Fazer a tela sobre (desafio)
+   - label (Nome do autor "seu nome")
+   - label (Sob a Licença MIT)
+   - label (link do projeto no GitHub) ***
+   - label (ícone do selo MIT)
 
-Construtor:
-- Usado para iniciar automaticamente um código na criação
-  dos objetos. No Java o construtor tem o mesmo nome da classe
-  principal.
-
-Atividade de avaliação POO Exercício 1
-- Slides 63,64 e 65  (material de apoio)
-
-Salvar o projeto no GitHub
-
+ 
 
 

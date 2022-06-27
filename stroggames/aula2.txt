@@ -1,0 +1,43 @@
+=============------Ordem dos Botões---===============
+usuarios
+fornecedor
+produtos
+clientes 
+pagamento
+relatorio
+ferramentas
+sobre
+
+Resoluções comuns:
+
+640 x 480
+800 x 600
+1025 x 768
+
+Inserir um rodapé com data automática no Java
+public void windowActivated(WindowEvent e) {
+  Date data = new Date();
+  DateFormat formatador = DateFormat.getDateInstance  (DateFormat.FULL);
+  lblData.setText(formatador.format(data));
+}
+
+Atividades:
+1) Criar a tela principal e as telas secundárias
+2) Definir 8 botões com ícones para a tela principal
+   - usuários
+   - fornecedores
+   - produtos
+   - clientes
+   - PDV
+   - relatórios
+   - ferramentas
+   - sobre
+3) Fazer a tela sobre (desafio)
+   - label (Nome do autor "seu nome")
+   - label (Sob a Licença MIT)
+   - label (link do projeto no GitHub) ***
+   - label (ícone do selo MIT)
+
+ 
+
+

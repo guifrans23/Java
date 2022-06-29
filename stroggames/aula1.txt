@@ -1,8 +1,0 @@
-Instalar Window Builder
-Help -> Eclipse MarketPlace - Pesquisar (find)
-Window Builder
-
-- Desenvolvimento da Interface Gráfica do projeto
-
-Atividade: asssitir a playlist e desenvolver o mini projeto
-https://www.youtube.com/playlist?list=PLbEOwbQR9lqxVuDWNIrG57_JGcbIL3FWP

@@ -37,7 +37,7 @@ public class Principal extends JFrame {
 		setResizable(false);
 		setTitle("Stronggames - Principal");
 		setIconImage(Toolkit.getDefaultToolkit().getImage(Principal.class.getResource("/img/logo.png")));
-		setBounds(100, 100, 588, 399);
+		setBounds(100, 100, 577, 399);
 		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		getContentPane().setLayout(null);
 		

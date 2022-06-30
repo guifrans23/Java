@@ -28,6 +28,7 @@ public class Fornecedores extends JDialog {
 	 * Create the dialog.
 	 */
 	public Fornecedores() {
+		setResizable(false);
 		setIconImage(Toolkit.getDefaultToolkit().getImage(Fornecedores.class.getResource("/img/logo.png")));
 		setModal(true);
 		setTitle("Strongames - Fornecedores");

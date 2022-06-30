@@ -28,6 +28,7 @@ public class Produtos extends JDialog {
 	 * Create the dialog.
 	 */
 	public Produtos() {
+		setResizable(false);
 		setIconImage(Toolkit.getDefaultToolkit().getImage(Produtos.class.getResource("/img/logo.png")));
 		setTitle("Strongames - Produtos");
 		setModal(true);

@@ -28,6 +28,7 @@ public class Usuarios extends JDialog {
 	 * Create the dialog.
 	 */
 	public Usuarios() {
+		setResizable(false);
 		setIconImage(Toolkit.getDefaultToolkit().getImage(Usuarios.class.getResource("/img/logo.png")));
 		setTitle("Strongames - Usuarios");
 		setModal(true);

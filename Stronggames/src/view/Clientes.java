@@ -28,6 +28,7 @@ public class Clientes extends JDialog {
 	 * Create the dialog.
 	 */
 	public Clientes() {
+		setResizable(false);
 		setIconImage(Toolkit.getDefaultToolkit().getImage(Clientes.class.getResource("/img/logo.png")));
 		setTitle("Strongames - Clientes");
 		setModal(true);

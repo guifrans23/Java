@@ -121,3 +121,10 @@ uagem java.
 ilador, um Depurador.
 	Existem diversor tipos de IDE  que poodem ser usadas para o desenvolvimento da linguagem java.
 	As mais populares são a IDE (NetBeans)e a IDE (ECLIPSE)
+------------------------------------------/fonte/----------------------------------------------------
+A Fonte das informações acima estão nos links abaixo
+canal do Professor Jose De Assis➡
+Video➡ https://youtu.be/g-NxvqOtjp0
+PlaylIst➡ https://youtube.com/playlist?list=PLbEOwbQR9lqxdW98mY-40IZQ5i8ZZyeQx
+github➡ https://github.com/professorjosedeassis
+Material de Apoio➡  https://github.com/professorjosedeassis/javaSE

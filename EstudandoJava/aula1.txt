@@ -1,0 +1,123 @@
+======================/~Fundamentos Da Linguagem java~/==================
+----------------------------/O Que é java/------------------------------- 								-----
+Neste Curso Voce Ira Aprender Java De Forme Simples e Pratica.
+Este Curso támbem  ensina Lógica e Fundamento de programação 
+orientada a Objeto.
+Nesta aula voce irá conhecer um Pouco do Java e saber onde ele é 
+usado e o porque de ser considerado uma das mais populares lingu-
+agens de progração.						 
+----------------------------/Sua Historia/---------------------------------					  
+	Um Pouco de sua Historia				 
+	O java foi  desenvolvido por um time de engenheiros da SUN no ini-
+cio da decada de 90.						  
+	A histoia do java é muito curiosa pois a ideia inicial eara desenvo  
+lver um despositivo wirelees que usava uma tela colorida sensível ao toque 
+para controlar a televisão, som, alarmes e diversos outros dispositivos do-
+mesticos.						     
+	além de interagir com computadores, o prototipo deste dispositivo foi
+criado e recebeu o nome de star serve.				      
+	alem da linguagem que era uasda neste dispositivo se tornou a linguag-
+em java uma curiosisdade aqui é o perssonagem que foi criado para ens-
+inar o usuario a uasr este despositivo.				     	
+	O nome deste perssonagem é DUTOR e ele foi adotado com mascote do java.
+	Por estar muito a frente da epoca e tambem pelo fato do mercado de tv a 
+cabo estar em seus Promodias esses projeto não foi adiante o time voltou a proc-
+ura alternativas para o uso desta tecnologioa.					
+	Em 1995 a internet crecia como uma meneira de coompartilhar conteudo en-
+tre diversos tipo de despositivos. 					 
+	A linguagem java foi Projetada para mover conteudo em uma rede com difer-
+entes dispositivos e tambem permitiria conteudo dinamico algo que o html não pod-
+eria fazer sozinho.
+--------------------------------/Sobre A Equipe/----------------------------------						
+	Foi assim então que a equipe decidio que entraria no mundo da internet c-
+riando um navegador capas de suportar a linguagem java esse navegador ficou conhe-
+cido como (HOT Java), neste ano tambem a NETScape Anuncio que um"navigator" o nav-
+egador internet mais popular da epoca ia suportar o java.			  
+	O java entaõ se popularizou na internet pore´m a estrategia de mercado da 
+(Sum) era ter a liguagem java em diversas areas tornando a linguagem  comum no me-
+rcado.	
+-----------------------------------/Noticias/-------------------------------------									  
+	Este processoo levou a disponibilização do java com código aberto podendo 
+ser baixado e usado gratuitamente por quem quiser.				 
+	Em 2009 a  (SUN) foi comprada pela (ORACLE) e desde então o java passou a
+ser controlado pela mesma 							 
+	"Escreva uma vez e rode em qualquer lugar" este e´o slogan do java, e re-
+presenta a sua maior vantagem a portabilidade.					 
+	O desenvolvedor java escrave o codigo sem se preucupar com as particular-
+iedades do sistema que ira rodar o java.					 
+	Vov=ce escreve o códiog em java e pode executar no windows, no linux, no
+sistema Mac, no sistema android, em smart cards e etc.				
+	Alem desta caracteristica a liguagem java e´gratuita tem a sintéxi pare-
+cida com a linguagem <c> que é robusta, é segura e tambem é orientada a objetos.
+																											        
+----------/o que permite que o java se conecte com qualquer despositivo/--------
+																			
+	O que torna possivel ao java rodar em qualque sisitema operacional é a  
+(JVM ou "java virtual machine"), o prcesso funciona da seguinte forma voce cria 
+o codigo em java e compila usando o compilador e esse codigo é tranformado no (b-
+ite code) a maquna virtual que é istalada no sistema interpreta este byte code 
+executando a aplicação java.						      
+	Para o java funsinar no seu computador ou em qualquer outro dispositi-
+vo é necessario ter esta maquina virtual intalada.			      
+	Por exemplo a gente custuma installar o java na sna verdae voce esta i-
+nstalando  o JVM no seu computador quando voce vai executar o programa da rece-
+ita federal(por que esse programa da receita federal é feito em java).
+---------------------------------/Popularidade/----------------------------------------
+	Segundo o ranking da (tiobi) a linguagem Java é considerada a liguagem mais pop-
+ular do planeta.									
+	 Esta popularidade tras muitas opurtunidades no mercado de trabalho além de um s-
+alario mais valorizado.									 
+	Entramdo no site da (Tiobe)  voce ve que ele vem sendo atualizado mensalmente as 
+lingugems que programação mais populares(na epóca que o video foi gravado o java tava e-
+m primeiro ligar das liguagems mais populares).						
+	outro site que tem informações muito valiosas é o (APinfo "www.Apinfo.com") neste
+site aqui voce pode cadastrar seu curriculo ou pesquisar vagas de emprego na area de Ti.
+	 Indo no menu de busca e pesqusando <C#(C sharp)>  e dando enter aparece o numero 
+de vagas de emprego para trabalhar com o <c#>(na epoca do video aparecerem 34 vagas para t-
+rabalhar com a linguagem <c#>), Mudando a palavra de pesqusa(Palavra Chave) de <C#> para 
+<java> aparece o valor de vagas para desenvolvedor java ( no video do PRofessor aparreceram 
+239 vagas em aberto para desenvolvedores java).						   
+-----------------------------------/Quem usa Java/----------------------------------------
+	O Java muitas vezes esta presente no nossso dia a dia sem a gente perceber.	  	
+	Exemplos de onde o jav se paresenta para nós é o (BACKAND).			   	
+	Mas o que é Backand? BackEnd é o desenvolvimento web no lado do servidor.	  
+	A Linguagem java é muito usada no mercado corporativo para o desenvolvimento de ap-
+licações web e tem uma forte demanda por profisinais.
+-------------------------------------/BackAnd/---------------------------------------------					  
+	Nos slides do professor  podem ver as ferramentas usadas junto ao java  para desen-
+volvimento de aplicações. 								  
+	Um exemplo do uso de java no Backend  são os (homeBanks/HomeBankings) por exemplo no
+site do banco do brasil quando voce clicar em "Acessar sua Conta" na parte superior do nav- 
+egador nonde tem a (Url) agente pode perceber o "Login.Jsp" que é a linguagem java sendo exe-
+cutada  no lado do servidor.								    
+----------------------------------------/Android/-------------------------------------------
+	A linguagem java é usada para o desenvolvimento  de plicações nativas do sistema and-
+roid.											    
+	Voce encontra o java em smartphones, tablets, smarttv e etc.
+-----------------------------------/Sistema Desktop/-----------------------------------------
+	Ojava pode ser usado Tambem para o desenvolvimento de sistemas desktop.		     
+	um exemplo famoso de sistema desktop feito em java é o programa de declaração de impo-
+sto de renda.										     
+----------------------------------------/games/-----------------------------------------------
+	Voce pode uasr o java para desenvolvimento de games, o jogo minecraft por exemplo foi 
+escrito com a linguagem java.								     
+---------------------------------------/Outros/-----------------------------------------------
+	O java tambem é encontrado em smart cards e em diversos outros dispositivos como por ex-
+emplo automotivos,bluray e até mesmo na robótica.
+	O rouver Spirit por exemplo que ficou ativo em marte  de 2004 a 2010 er4a programado com 
+a linguagem java 
+----------------------------------/Por Onde começar/--------------------------------------------
+	Para começar a desenvolver e java é necessario (Instalar) o "Kit Do desenvolvedor java" ta
+mbem conhecido como (JDK"javakitdeveloper").
+	O Oracle Jdk antes da  da aquisição pela oracle era  chamado de (SUNJDK) após a quisição foi 
+nomeado para (OracleJDK) sendo agora a equipe da oracle a responsavel por manter o java.
+	O (OPEN JDK) é uma implementação de de software  livre da plataforma java com contribuição da
+da propria oracle e da comunidade java aberta.							     
+	O JDK Contem todas as bibliotecas e ferramentas para o desenvolvimento ea execução da da ling-
+uagem java.
+-------------------------------------------/IDE/----------------------------------------------------
+	Para começar a desenvolver o java além do JDK é necessario tambem  instalar uma (IDE).
+	A IDE é um anbiente integrado de desenvolvimento que consiste em um editoe de codigo, um comp-
+ilador, um Depurador.
+	Existem diversor tipos de IDE  que poodem ser usadas para o desenvolvimento da linguagem java.
+	As mais populares são a IDE (NetBeans)e a IDE (ECLIPSE)
